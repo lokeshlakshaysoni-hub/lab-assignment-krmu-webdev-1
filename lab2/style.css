@@ -1,0 +1,120 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #f7f7f7;
+    color: #111010;
+}
+header {
+    background: #ebd806;
+    color: #040404;
+    padding: 12px ;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.navbar h1 {
+    font-size: 1.7em;
+    letter-spacing: 1px;
+}
+nav a {
+    color: #0e0e0d;
+    margin-left: 18px;
+    font-weight: 600;
+}
+
+nav a {
+    color: #000000;
+}
+
+.image {
+    display: block;
+    margin: 0 auto 10px auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #0b0b0b;
+    box-shadow: black;
+}
+
+
+section {
+    padding: 32px 10px 10px 10px;
+    max-width: 720px;
+    margin: 0 auto 25px auto;
+    background: beige;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px #7604e8;
+}
+
+
+h2 {
+    color: #070707;
+    margin-bottom: 12px;
+}
+
+
+table {
+    width: 100%;
+   border: black;
+   
+    
+    
+}
+
+
+table th, table td {
+    border: 1px solid #1351a7;
+    padding: 10px;
+    text-align: left;
+}
+
+
+form {
+    display: grid;
+    gap: 11px;
+    margin-top: 10px;
+}
+
+
+input, textarea {
+    padding: 7px;
+    border-width: 5px;
+    border: 1px solid #0089fa;
+    font-size: 1;
+}
+
+
+button {
+    background: #2a07ed;
+    color: #fff;
+    padding: 9px 5px 12px 5px ;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+
+.top {
+    background: #e80611;
+    color: #ffffff;
+    margin-top: 2px ;
+    float: right;
+}
+
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #0ad5e0;
+    color: #111010;
+    margin-top: 20px;
+    
+}
