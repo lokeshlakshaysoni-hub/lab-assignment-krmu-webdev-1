@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanchit's cafe app</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="container nav">
+            <h1 class="logo">Sanchit's Cafe</h1>
+
+            <ul class="nav-links">
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#restaurants">Restaurants</a></li>
+                <li><a href="#promos">Offers</a></li>
+                <li><a href="#reviews">Testimonials</a></li>
+                <li><a href="#contact">App</a></li>
+            </ul>
+            <div class="nav-btns">
+                <a href="#" class="login-btn">Login</a>
+                <a href="#" class="signup-btn">Sign Up</a>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="hero" id="home">
+
+        <div class="container hero-wrapper">
+
+            <div class="hero-text">
+                <h2>Delicious food,<br>delivered to you</h2>
+                <p>Order from your favorite restaurants and get your meal delivered fast, fresh, and hot. Discover the
+                    best food in your city with FreshEats!</p>
+                <a href="#categories" class="btn">Order Now</a>
+            </div>
+
+            <div class="hero-img">
+                <img src="hero image.jpg" alt="Food Image">
+            </div>
+
+        </div>
+
+
+        <div class="search-box container">
+            <input type="text" placeholder="Enter your location">
+
+            <select>
+                <option>All Categories</option>
+                <option>Pizza</option>
+                <option>Burgers</option>
+                <option>Sushi</option>
+                <option>Indian Food</option>
+                <option>Chinese Food</option>
+            </select>
+
+            <button class="btn">Search</button>
+        </div>
+
+    </section>
+
+    <section class="container categories" id="categories">
+        <h2 class="section-title">Browse by Category</h2>
+
+        <div class="grid">
+            <div class="card small"><img src=pizza1.jpeg>
+                <h3>Pizza</h3>
+            </div>
+            <div class="card small"><img src=burger.jpeg>
+                <h3>Burgers</h3>
+            </div>
+            <div class="card small"><img src=sushi.jpeg>
+                <h3>Sushi</h3>
+            </div>
+            <div class="card small"><img src=indian.jpeg>
+                <h3>Indian</h3>
+            </div>
+            <div class="card small"><img src=chinese.jpg>
+                <h3>Chinese</h3>
+            </div>
+            <div class="card small"><img src=chinese.jpg>
+                <h3>Desserts</h3>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container restaurants" id="restaurants">
+        <h2 class="section-title">Featured Restaurants</h2>
+
+        <div class="grid">
+            <div class="card">
+                <img src="pizza palace.jpeg">
+                <h3>Pizza Palace</h3>
+                <p>Pizza, Italian • ⭐ 4.8</p>
+            </div>
+
+            <div class="card">
+                <img src="burger hub.jpeg">
+                <h3>Burger Hub</h3>
+                <p>Burgers, Fast Food • ⭐ 4.6</p>
+            </div>
+
+            <div class="card">
+                <img src="sushi world.jpeg">
+                <h3>Sushi World</h3>
+                <p>Sushi, Japanese • ⭐ 4.7</p>
+            </div>
+
+            <div class="card">
+                <img src="coffee river.jpeg">
+                <h3>Coffee River </h3>
+                <p>Indian, Curry • ⭐ 4.6</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="promos" id="promos">
+        <h2 class="section-title">Promo Offers</h2>
+
+        <div class="container grid">
+            <div class="promo-card">
+                <h3>30% OFF</h3>
+                <p>On your first order</p>
+            </div>
+
+            <div class="promo-card">
+                <h3>Free Delivery</h3>
+                <p>On orders above ₹199</p>
+            </div>
+
+            <div class="promo-card">
+                <h3>Buy 1 Get 1 Free</h3>
+                <p>On Burgers every Friday</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container reviews" id="reviews">
+        <h2 class="section-title">What Our Customers Say</h2>
+
+        <div class="grid">
+            <div class="review-card">
+                <p>"Foodie makes ordering food so easy and quick! The delivery is always on time and the food is hot."
+                </p>
+                <h4>Mr.shadab</h4>
+            </div>
+
+            <div class="review-card">
+                <p>"Great variety and amazing offers. Highly recommend it to all food lovers!"</p>
+                <h4>Mr.Rajesh</h4>
+            </div>
+
+            <div class="review-card">
+                <p>"The app is super easy and the customer support is fantastic. Love FreshEats!"</p>
+                <h4>Mr. Vishal</h4>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container contact" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+
+        <form>
+            <label>Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your Email ID" required>
+
+            <label>Message</label>
+            <textarea placeholder="Enter Message"></textarea>
+
+            <button class="btn">Submit</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>© 2025 FreshEats - Food Delivery Website</p>
+    </footer>
+
+</body>
+
+</html>
