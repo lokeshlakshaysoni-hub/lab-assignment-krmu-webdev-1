@@ -1,0 +1,177 @@
+ body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background-color: #f0f8ff;
+ }
+
+ header {
+     background-color: #2c3e50;
+     color: white;
+     padding: 20px;
+     text-align: center;
+ }
+
+ nav {
+     background-color: #34495e;
+     padding: 10px;
+     text-align: center;
+ }
+
+ nav a {
+     color: white;
+     text-decoration: none;
+     margin: 0 15px;
+     font-weight: bold;
+ }
+
+ .hero {
+     background-image: url(Travel.jpg);
+     background-size: contain;
+     color: rgb(2, 2, 2);
+     text-align: center;
+     padding: 100px 20px;
+ }
+
+ .hero h1 {
+     font-size: 40px;
+     margin-bottom: 10px;
+ }
+
+ .hero p {
+     font-size: 18px;
+     margin-bottom: 20px;
+ }
+
+ .hero button {
+     padding: 10px 20px;
+     font-size: 16px;
+     background-color: #e67e22;
+     color: white;
+     border: none;
+     cursor: pointer;
+ }
+
+ .section {
+     padding: 40px 20px;
+     text-align: center;
+ }
+
+ .section h2 {
+     color: #2c3e50;
+     margin-bottom: 30px;
+ }
+
+ .cards {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     flex-wrap: wrap;
+ }
+
+ .card {
+     background-color: white;
+     border: 1px solid #ccc;
+     width: 250px;
+     padding: 20px;
+     border-radius: 8px;
+ }
+
+ .card img {
+     width: 100%;
+     border-radius: 5px;
+ }
+
+ .card h3 {
+     color: #e67e22;
+     margin: 10px 0;
+ }
+
+ .card p {
+     font-size: 14px;
+     color: #555;
+ }
+
+ .price {
+     font-weight: bold;
+     color: #27ae60;
+     margin-top: 10px;
+ }
+
+
+ #contact {
+     background-image: url(Contactus.jpg);
+     background-size: contain;
+     max-width: 500px;
+     margin: 60px auto;
+     padding: 25px;
+     border-radius: 10px;
+     box-shadow: 0 2px 2px 2px blueviolet
+ }
+
+ #contact h2 {
+     text-align: center;
+     margin-bottom: 0 auto;
+     color: #ffffff;
+     background-color: black;
+
+ }
+
+ #contact p {
+     font-size: 14px;
+     color: #ffffff;
+     text-align: center;
+     margin-bottom: 20px;
+ }
+
+ .details {
+     display: flex;
+     flex-direction: column;
+     margin-bottom: 15px;
+ }
+
+ .details label {
+     font-weight: bold;
+     margin-bottom: 5px;
+     color: #fff8f8;
+ }
+
+ .details input[type="text"],
+ .details input[type="email"],
+ .details textarea {
+     padding: 10px;
+     border: 2px solid #11cdea;
+     border-radius: 6px;
+     outline: none;
+     transition: border-color 0.3s;
+ }
+
+ .details input:focus,
+ .details textarea:focus {
+     border-color: #007BFF;
+ }
+
+ #submit-btn {
+     padding: 12px;
+     background: #0033ff;
+     color: white;
+     border: none;
+     border-radius: 6px;
+     cursor: pointer;
+     width: 100%;
+     font-size: 16px;
+     transition: background 0.3s, transform 0.2s;
+ }
+
+ #submit-btn:hover {
+     background: #0056b3;
+     transform: scale(1.05);
+ }
+
+ #about {
+     max-width: 500px;
+     margin: 60px auto;
+     padding: 25px;
+     border-radius: 10px;
+     box-shadow: 0 2px 2px 2px rgb(227, 5, 5);
+     background-color: beige;
+ }
