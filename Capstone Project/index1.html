@@ -1,194 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lokesh Verma's cafe app</title>
-    <link rel="stylesheet" href="style1.css">
+    <title>Foodie - Delicious Food, Delivered</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="capstone.css">
 </head>
-
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
 
-    <header>
-        <nav class="container nav">
-            <h1 class="logo">Lokesh Verma's Cafe</h1>
-
-            <ul class="nav-links">
-                <li><a href="#categories">Categories</a></li>
-                <li><a href="#restaurants">Restaurants</a></li>
-                <li><a href="#promos">Offers</a></li>
-                <li><a href="#reviews">Testimonials</a></li>
-                <li><a href="#contact">App</a></li>
+    <header class="main-header">
+        <div class="logo">Foodie</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Restaurants</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">App</a></li>
             </ul>
-            <div class="nav-btns">
-                <a href="#" class="login-btn">Login</a>
-                <a href="#" class="signup-btn">Sign Up</a>
-            </div>
         </nav>
+        <div class="user-actions">
+            <button class="btn btn-login">Login</button>
+            <button class="btn btn-signup">Sign Up</button>
+        </div>
     </header>
 
+    <main id="main-content">
 
-    <section class="hero" id="home">
-
-        <div class="container hero-wrapper">
-
-            <div class="hero-text">
-                <h2>Delicious food,<br>delivered to you</h2>
-                <p>Order from your favorite restaurants and get your meal delivered fast, fresh, and hot. Discover the
-                    best food in your city with FreshEats!</p>
-                <a href="#categories" class="btn">Order Now</a>
+        <section class="hero-banner">
+            <div class="hero-content">
+                <h1>Delicious food, delivered to you</h1>
+                <p>Order from your favorite restaurants and get your meal delivered fast, fresh, and hot. Discover the best food in your city with Foodie!</p>
+                <button class="btn btn-order">Order Now</button>
+                
+                <form class="search-bar">
+                    <input type="text" placeholder="Enter your location">
+                    <select>
+                        <option>All Categories</option>
+                        <option>Pizza</option>
+                        </select>
+                    <button type="submit" class="btn btn-search">Search</button>
+                </form>
             </div>
+            <img src="https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content6560.jpg" alt="A collection of delicious, colorful meals ready to be served." class="hero-image">
+        </section>
 
-            <div class="hero-img">
-                <img src="hero image.jpg" alt="Food Image">
+        <section class="category-section">
+            <h2>Browse by Category</h2>
+            <div class="category-grid">
+                <article class="category-card">🍕 Pizza</article>
+                <article class="category-card">🍔 Burgers</article>
+                <article class="category-card">🍣 Sushi</article>
+                <article class="category-card">🇮🇳 Indian</article>
+                <article class="category-card">🇨🇳 Chinese</article>
+                <article class="category-card">🍰 Desserts</article>
             </div>
+        </section>
 
+        <section class="restaurant-section">
+            <h2>Featured Restaurants</h2>
+            <div class="restaurant-grid">
+                <article class="restaurant-card">
+                    <img src="pizza.jpg" alt=" pizza image." loading="lazy">
+                    <h3>Pizza Palace</h3>
+                    <p>Pizza, Italian</p>
+                    <p class="rating">⭐ 3.9</p>
+                </article>
+                <article class="restaurant-card">
+                    <img src="BURGER.jpg" alt="Close-up of a massive cheeseburger and fries." loading="lazy">
+                    <h3>Burger Hub</h3>
+                    <p>Burgers, Fast Food</p>
+                    <p class="rating">⭐ 4.0</p>
+                </article>
+                <article class="restaurant-card">
+                    <img src="SHUSHI.jpg" alt="Beautifully plated sushi rolls and sashimi." loading="lazy">
+                    <h3>Sushi World</h3>
+                    <p>Sushi, Japanese</p>
+                    <p class="rating">⭐ 4.1</p>
+                </article>
+            </div>
+        </section>
+        
+        <section class="testimonials-section">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <blockquote class="testimonial-card">
+                    <p>"Foodie makes ordering food so easy and quick! The delivery is always on time and the food is hot."</p>
+                    <footer>- Sarah M.</footer>
+                </blockquote>
+                <blockquote class="testimonial-card">
+                    <p>"Great selection of restaurants and amazing offers. Highly recommend to all food lovers!"</p>
+                    <footer>- James L.</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2> Start ordering , your cart is waiting for you ! </h2>
+            <form class="signup-form">
+
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" placeholder="email----@example.com" required>  <br><br>
+
+                <label for="Name">Enter Name: </label>
+                <input type="text" id="name" name="name" placeholder="enter your name here ">    <br><br>
+
+
+                <button type="submit" class="btn btn-primary">Sign Up for Offers</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-links">
+            <p> 2025 Foodie. All rights reserved.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
         </div>
-
-
-        <div class="search-box container">
-            <input type="text" placeholder="Enter your location">
-
-            <select>
-                <option>All Categories</option>
-                <option>Pizza</option>
-                <option>Burgers</option>
-                <option>Sushi</option>
-                <option>Indian Food</option>
-                <option>Chinese Food</option>
-            </select>
-
-            <button class="btn">Search</button>
+        <div class="social-icons">
+            <a href="#" aria-label="Follow us on Facebook">Facebook</a>
+            <a href="#" aria-label="Follow us on Instagram">Instagram</a>
+            <a href="#" aria-label="Follow us on Twitter">Twitter</a>
         </div>
-
-    </section>
-
-    <section class="container categories" id="categories">
-        <h2 class="section-title">Browse by Category</h2>
-
-        <div class="grid">
-            <div class="card small"><img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\pizza.jpg">
-                <h3>Pizza</h3>
-            </div>
-            <div class="card small"><img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\BURGER.jpg">
-                <h3>Burgers</h3>
-            </div>
-            <div class="card small"><img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\SHUSHI.jpg">
-                <h3>Sushi</h3>
-            </div>
-            <div class="card small"><img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\INIDAN.jpg">
-                <h3>Indian</h3>
-            </div>
-            <div class="card small"><img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\CHINESE01.jpg">
-                <h3>Chinese</h3>
-            </div>
-            <div class="card small"><img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\CHINESE DESERTS.jpg">
-                <h3>Desserts</h3>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="container restaurants" id="restaurants">
-        <h2 class="section-title">Featured Restaurants</h2>
-
-        <div class="grid">
-            <div class="card">
-                <img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\pizza.jpg">
-                <h3>Pizza Palace</h3>
-                <p>Pizza, Italian • ⭐ 4.8</p>
-            </div>
-
-            <div class="card">
-                <img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\BURGER.jpg">
-                <h3>Burger Hub</h3>
-                <p>Burgers, Fast Food • ⭐ 4.6</p>
-            </div>
-
-            <div class="card">
-                <img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\SHUSHI.jpg">
-                <h3>Sushi World</h3>
-                <p>Sushi, Japanese • ⭐ 4.7</p>
-            </div>
-
-            <div class="card">
-                <img src="C:\Users\lokes\Desktop\Lokesh Verma\WEB DEV 01\COFFEE IMAGE.jpg">
-                <h3>Coffee River </h3>
-                <p>Indian, Curry • ⭐ 4.6</p>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="promos" id="promos">
-        <h2 class="section-title">Promo Offers</h2>
-
-        <div class="container grid">
-            <div class="promo-card">
-                <h3>30% OFF</h3>
-                <p>On your first order</p>
-            </div>
-
-            <div class="promo-card">
-                <h3>Free Delivery</h3>
-                <p>On orders above ₹199</p>
-            </div>
-
-            <div class="promo-card">
-                <h3>Buy 1 Get 1 Free</h3>
-                <p>On Burgers every Friday</p>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="container reviews" id="reviews">
-        <h2 class="section-title">What Our Customers Say</h2>
-
-        <div class="grid">
-            <div class="review-card">
-                <p>"Foodie makes ordering food so easy and quick! The delivery is always on time and the food is hot."
-                </p>
-                <h4>Mr.Jim</h4>
-            </div>
-
-            <div class="review-card">
-                <p>"Great variety and amazing offers. Highly recommend it to all food lovers!"</p>
-                <h4>Mr.Prince</h4>
-            </div>
-
-            <div class="review-card">
-                <p>"The app is super easy and the customer support is fantastic. Love FreshEats!"</p>
-                <h4>Mr. Rahul</h4>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="container contact" id="contact">
-        <h2 class="section-title">Contact Us</h2>
-
-        <form>
-            <label>Name</label>
-            <input type="text" placeholder="Enter your name" required>
-
-            <label>Email</label>
-            <input type="email" placeholder="Enter your Email ID" required>
-
-            <label>Message</label>
-            <textarea placeholder="Enter Message"></textarea>
-
-            <button class="btn">Submit</button>
-        </form>
-    </section>
-
-
-    <footer>
-        <p>© 2025 FreshEats - Food Delivery Website</p>
     </footer>
-
 </body>
-
-
 </html>
