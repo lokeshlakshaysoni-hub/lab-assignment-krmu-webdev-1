@@ -63,7 +63,7 @@ header {
     transition: 0.3s;
 }
 
-/* HOVER EFFECTS */
+
 .login-btn:hover {
     background: #4dff8e;
     color: white;
@@ -73,7 +73,7 @@ header {
     background: #4dff8e;
 }
 
-/* HERO */
+
 .hero {
     padding: 40px 0;
     background: rgb(255, 254, 254)
@@ -112,7 +112,7 @@ header {
     background: rgb(79, 246, 154);
 }
 
-/* SEARCH BAR */
+
 .search-box {
     margin-top: 25px;
     padding: 15px;
@@ -131,21 +131,21 @@ header {
     border-radius: 8px;
 }
 
-/* TITLES */
+
 .section-title {
     font-size: 28px;
     margin: 40px 0 20px;
     text-align: left;
 }
 
-/* GRID LAYOUT */
+
 .grid {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
-/* CATEGORY + RESTAURANT CARDS */
+
 .card {
     background: white;
     padding: 15px;
@@ -166,7 +166,7 @@ header {
     transform: scale(1.03);
 }
 
-/* PROMO SECTION */
+
 .promos {
     background: rgb(254, 238, 238);
     padding: 40px 0;
@@ -186,7 +186,7 @@ header {
     transform: translateY(-5px);
 }
 
-/* REVIEWS */
+
 .review-card {
     padding: 20px;
     background: rgb(241, 241, 241);
@@ -200,7 +200,7 @@ header {
     background: white;
 }
 
-/* CONTACT FORM */
+
 .contact form {
     display: flex;
     flex-direction: column;
@@ -213,7 +213,7 @@ header {
     border: 1px solid rgb(193, 192, 192);
 }
 
-/* FOOTER */
+
 footer {
     background: rgb(79, 246, 154);
     color: white;
@@ -222,7 +222,7 @@ footer {
     margin-top: 20px;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
     .hero-wrapper {
         flex-direction: column;
@@ -236,4 +236,5 @@ footer {
     .search-box {
         flex-direction: column;
     }
+
 }
